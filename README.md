@@ -1,2 +1,2 @@
 # scala-monorepo
-Contrived exampled of a scala monorepo using bazel
+Example of a scala monorepo using bazel
