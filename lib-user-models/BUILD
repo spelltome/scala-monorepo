@@ -13,9 +13,6 @@ scala_library(
     srcs = glob([
         "src/main/scala/**/*.scala",
     ]),
-    resources = glob([
-        "src/main/resources/**/*",
-    ]),
     scalacopts = [
         #"-target:jvm-1.9",
         #"-encoding",
@@ -44,9 +41,6 @@ scala_test(
     size = "small",
     srcs = glob([
         "src/test/**/*Spec.scala",
-    ]),
-    resources = glob([
-        "src/test/resources/**/*",
     ]),
     deps = [
         ":lib",
